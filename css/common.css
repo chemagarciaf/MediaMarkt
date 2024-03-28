@@ -71,13 +71,13 @@ p{
     gap: 20px;
 }
 
-.list__item {
+.header_list__item {
     padding-top: 4px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
 }
-.list__item--exception {
+.header_list__item--exception {
     align-items: center;
 }
 
@@ -220,6 +220,7 @@ p{
 .footer{
     background-color: var(--background-footer-one);
     width: 100%;
+    margin-top: 35px;
 }
 
 .footer__container{
@@ -375,6 +376,6 @@ p{
 
 .container {
     width: 1300px;
-    height: 200px;
     margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
