@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,59 +9,78 @@
     <link rel="stylesheet" href="./../css/instalacion.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
+
 <body>
-    
+
     <!-- Here begins Header -->
     <!-- Header is out of .container because it always spans 100% width -->
     <header class="header">
-        <div class="header__container header__container--one">
-            <ul class="header__list">
-                <li class="header_list__item">Ofertas</li>
-                <li class="header_list__item">Suscríbete</li>
-                <li class="header_list__item"><i class="fa-solid fa-star fontAwesome-star"></i>Servicios</li>
-                <li class="header_list__item">Empresa</li>
-                <li class="header_list__item">Web Canarias</li>
-                <li class="header_list__item">Instalación placas solares</li>
-                <li class="header_list__item">Reparaciones</li>
-                <li class="header_list__item">Financiación</li>
-                <li class="header_list__item">Betterway</li>
-                <li class="header_list__item">Tarifa luz y gas</li>
-                <li class="header_list__item">Marcas propias</li>
-                <li class="header_list__item header_list__item--exception"> <i
-                        class="fa-solid fa-circle-info fontAwesome-info"></i>¿Te ayudamos?</li>
-                <li class="header_list__item">Formaciones</li>
-                <li class="header_list__item">Mejor precio garantizado</li>
-                <li class="header_list__item">Marketplace</li>
-            </ul>
-            <div class="header__nav">
-                <img class="nav__img" src="./../assets/images/principal/MM_logo_white.svg" alt="">
-                <button class="nav__category"><i class="fa-solid fa-bars fontAwesome-menu"></i> Todas las
-                    categorias</button>
-                <input class="nav__search" type="search">
-                <div class="nav__selector">
-                    <div class="nav__selector--text">
-                        <p>Mi tienda</p>
-                        <p>No has seleccionado...</p>
+        <div class="header__container ">
+            <div class="header__container--one">
+                <ul class="header__list">
+                    <li class="header_list__item">Ofertas</li>
+                    <li class="header_list__item">Suscríbete</li>
+                    <li class="header_list__item"><i class="fa-solid fa-star fontAwesome-star"></i>Servicios</li>
+                    <li class="header_list__item">Empresa</li>
+                    <li class="header_list__item">Web Canarias</li>
+                    <a href="./pages/instalacion.html">
+                        <li class="header_list__item">Instalación placas solares</li>
+                    </a>
+                    <a href="./pages/reparaciones.html">
+                        <li class="header_list__item">Reparaciones</li>
+                    </a>
+                    <li class="header_list__item">Financiación</li>
+                    <li class="header_list__item">Betterway</li>
+                    <li class="header_list__item">Tarifa luz y gas</li>
+                    <li class="header_list__item">Marcas propias</li>
+                    <li class="header_list__item header_list__item--exception"> <i
+                            class="fa-solid fa-circle-info fontAwesome-info"></i>¿Te ayudamos?</li>
+                    <li class="header_list__item">Formaciones</li>
+                    <li class="header_list__item">Mejor precio garantizado</li>
+                    <li class="header_list__item">Marketplace</li>
+                </ul>
+                <div class="header__nav">
+                    <img class="nav__img" src="./../assets/images/principal/MM_logo_white.svg" alt="">
+                    <button class="nav__category"><i class="fa-solid fa-bars fontAwesome-menu"></i> Todas las
+                        categorias</button>
+                    <input class="nav__search" type="search">
+                    <div class="nav__selector">
+                        <div class="nav__selector--text">
+                            <p>Mi tienda</p>
+                            <p>No has seleccionado...</p>
+                        </div>
+                        <i class="fa-solid fa-chevron-down fontAwesome-flecha"></i>
                     </div>
-                    <i class="fa-solid fa-chevron-down fontAwesome-flecha"></i>
-                </div>
-                <div class="nav__buttons">
-                    <div class="nav__button nav__button--one fontAwesome-user">
-                        <i class="fa-solid fa-user"></i>
-                    </div>
-                    <div class="nav__button nav__button--two">
-                        <i class="fa-solid fa-cart-shopping fontAwesome-carro"></i>
+                    <div class="nav__buttons">
+                        <div class="nav__button nav__button--one fontAwesome-user">
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+                        <div class="nav__button nav__button--two">
+                            <i class="fa-solid fa-cart-shopping fontAwesome-carro"></i>
+                        </div>
                     </div>
                 </div>
             </div>
 
         </div>
 
-        <div class="header__container header__container--two">
-            <div class="container_two__text">
-                <p class="info__text">Stock fuera</p>
-                <p class="info__text">ENVÍO GRATIS DESDE 49€*</p>
-                <p class="info__text">Financiación</p>
+        <div class="header__container">
+            <div class="header__container--two">
+                <div class="container_two__text">
+                    <p class="info__text">Stock fuera</p>
+                    <p class="info__text">ENVÍO GRATIS DESDE 49€*</p>
+                    <p class="info__text">Financiación</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="header__container">
+            <div class="header__container--three">
+                <i class="fa-solid fa-house"></i>
+                <i class="fa-solid fa-chevron-right"></i>
+                <p>Energia</p>
+                <i class="fa-solid fa-chevron-right"></i>
+                <p>Instalación placas solares</p>
             </div>
         </div>
     </header>
@@ -68,13 +88,92 @@
 
 
 
-    <div class="container">
-        <!-- Here begins main -->
-        <main>
+    <!-- Here begins main -->
+    <main>
+        <img src="./../assets/images/instalacion/cabecera.webp" alt="" class="cabecera__img">
+        <div class="container">
+            <div class="instalacion__titulo">
+                <h1 class="titulo">Instalacion placas solares</h1>
+            </div>
+            <div class="instalacion__titulo--curvo">
+            </div>
 
-        </main>
-        <!-- Here ends main -->
-    </div>
+            <section class="ahorra">
+                <h2 class="ahorra_titutlo">Con las placas solares, ahorra cuidando el medio ambiente</h2>
+                <p class="ahorra__text">Reduce tu factura de la luz con la energía de Km0 que generas en tu tejado. Además, si dispones de
+                    baterías puedes llegar a auto consumir el 100% de tu propia energía. Las placas solares se pueden
+                    instalar en todo tipo de hogares, independientemente de su tamaño o ubicación.</p>
+                <img src="./../assets/images/instalacion/one.jpg" alt="" class="ahorra__img">
+            </section>
+
+            <section class="section__two">
+                <img src="./../assets/images/instalacion/two.webp" alt="" class="section__two__img">
+                <div class="section__two__div">
+                    <ul class="section__two__list">
+                        <li>Te llamamos en menos de 24h laborables.</li>
+                        <li>Asesoramiento en todo momento.</li>
+                        <li>Asistencia en la transición energética.</li>
+                        <li>Visita para realizar un estudio detallado.</li>
+                        <li>Planificación de la instalación técnica.</li>
+                        <li>Instalación eficiente y de alta calidad.</li>
+                        <li>Nos encargamos de todo.</li>
+                    </ul>
+                    <p>Solicita tu presupuesto gratuito</p>
+                </div>
+            </section>
+
+            <section class="section__three">
+                <img src="./../assets/images/instalacion/three.webp" alt="" class="section__three__img">
+                <div class="section__three__div">
+                    <h2 class="section__three__title">Asi es como funciona la batería virtual:</h2>
+                    <ol class="section__three__list">
+                        <li>Instala placas solares y genera tu propia energía.</li>
+                        <li>Guarda en la batería virtual la energía que no uses.</li>
+                        <li>Este excedente se guardará en forma de euros.</li>
+                        <li>Usa el dinero para reducir hasta el 100% de la factura de la luz.</li>
+                        <li>Tu saldo no caduca y, si te sobra, lo mantienes.</li>
+                    </ol>
+                </div>
+            </section>
+
+            <section class="section__four">
+                <h2 class="section__four__title">Te ayudamos con las subvenciones en placas solares</h2>
+                <p>Las principales ayudas son:</p>
+                <div class="section__four__cards">
+                    <div class="section__four__card">
+                        <div>
+                            <p>1</p>
+                            <hr>
+                        </div>
+                            <h3>Hasta 60% deducciones IRPF</h3>
+                        <p>Desgravación de la instalación fotovoltaica en la declaración de la renta.</p>
+                    </div>
+                    <div class="section__four__card">
+                        <div>
+                            <p>2</p>
+                            <hr>
+                        </div>
+                        <h3>Hasta 50% Deducción IBI</h3>
+                        <p>Dependiendo del ayuntamiento.</p>
+                    </div>
+                    <div class="section__four__card section__four__card--exception">
+                        <div>
+                            <p>3</p>
+                            <hr>
+                        </div>
+                        <h3>Hasta 95% Reducción ICIO</h3>
+                        <p>Reduce el impuesto de obras, según el ayuntamiento.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section__five">
+                <h2>¿Cómo funciona una instalación fotovoltaica?</h2>
+                <img src="./../assets/images/instalacion/five.jpg" alt="" class="section__five__img">
+            </section>
+        </div>
+    </main>
+    <!-- Here ends main -->
 
 
 
@@ -175,14 +274,16 @@
                 <ul class="footer__list footer__list--prelast">
                     <li class="footer_list__item  footer_list__item--first">Métodos de pago</li>
                     <li class="footer_list__item footer_list__item--imgs">
-                        <img class="footer__img footer__img--visa" src="./../assets/images/footer/logo-visa-bw.svg" alt="">
+                        <img class="footer__img footer__img--visa" src="./../assets/images/footer/logo-visa-bw.svg"
+                            alt="">
                         <img class="footer__img footer__img--mastercard"
                             src="./../assets/images/footer/logo-mastercard-bw.svg" alt="">
                         <img class="footer__img footer__img--paypal" src="./../assets/images/footer/logo-paypal-bw.svg"
                             alt="">
                         <img class="footer__img footer__img--bizum" src="./../assets/images/footer/logo-bizum-bw.svg"
                             alt="">
-                        <img class="footer__img footer__img--amex" src="./../assets/images/footer/logo-amex-bw.svg" alt="">
+                        <img class="footer__img footer__img--amex" src="./../assets/images/footer/logo-amex-bw.svg"
+                            alt="">
                         <img class="footer__img footer__img--clubcard"
                             src="./../assets/images/footer/logo-club-card-es-bw.svg" alt="">
                         <img class="footer__img footer__img--giftcard"
@@ -249,4 +350,5 @@
     </footer>
     <!-- Here ends Footer -->
 </body>
+
 </html>
