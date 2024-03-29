@@ -73,20 +73,24 @@
 /* DESTACADOS CONFIG */
 .destacados{
     padding-top: 30px;
+    width: 100%;
 }
 .destacados__cards{
     display: flex;
     flex-direction: row;
     align-items: top;
     justify-content: space-evenly;
+    width: 100%;
 }
 
 .destacados__card{
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
+    flex: 1 1 210px;
     gap: 15px;
-    width: 210px;
+    max-width: 210px;
     padding: 15px 0;
     border-radius: 13px;
     transition-duration: 0.3s;
@@ -108,7 +112,7 @@
 
 /* NAVEGACION CONFIG */
 .navegacion{
-    width: 100%;
+    width: 1300px;
     padding-top: 35px;
     display: flex;
     flex-direction: column;
@@ -123,11 +127,126 @@
 .navegacion__cards{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .navegacion__card{
     display: flex;
     flex-direction: column;
+    gap: 11px;
     padding: 15px;
     border: 1px solid rgb(203, 203, 203);
+    width: 205px;
+    border-radius: 10px;
+}
+.navegacion_card__top{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.navegacion_card__top p{
+    border: 2px solid firebrick;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 11px;
+}
+.navegacion_card__img{
+    width: 200px;
+    margin: 0 auto;
+    padding-top: 8px;
+}
+.navegacion_card__estrellas{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+}
+.navegacion_card__estrellas p{
+    font-size: 11px;
+    color: rgb(72, 72, 72);
+}
+.navegacion_card__producto{
+    font-size: 12px;
+    font-weight: bold;
+}
+.navegacion_card__eficiencia{
+    width: 35px;
+}
+.navegacion_card__precioAntiguo{
+    font-size: 15px;
+    color: rgb(94, 94, 94);
+    text-decoration:line-through;
+}
+.navegacion_card__precioNuevo{
+    font-size: 23px;
+    color: var(--principal-red);
+    font-weight: bold;
+}
+.navegacion_card__iva{
+    font-size: 10px;
+    text-decoration: underline;
+    padding-bottom: 8px;
+}
+.navegacion_card__iva:hover{
+    text-decoration: none;
+}
+
+
+.navegacion_card__top--one{
+    visibility: hidden;
+}
+.navegacion_card__precioAntiguo--one{
+    visibility: hidden;
+}
+.navegacion_card__eficiencia--four{
+    visibility: hidden;
+}
+.navegacion_card__precioNuevo--one{
+    color: black;
+}
+
+.navegacion__card--two{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.navegacion__card--two{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.navegacion__card--two div{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    font-size: 13px;
+}
+
+.navegacion__card--two .p1{
+    font-weight: bold;
+}
+.navegacion__card--two .p2{
+    
+}
+.navegacion__card--two .p3{
+    text-align: center;
+    padding: 15px 0;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+}
+.navegacion__card--two .p3:hover{
+    background-color: rgb(79, 79, 79);
+}
+.navegacion__card--two .p4{
+    text-align: center;
+    font-weight: bold;
+}
+
+.fa-star{
+    font-size: 12px;
+    color: var(--principal-red);
+}
+.fa-envelope-open-text{
+    font-size: 40px;
 }
