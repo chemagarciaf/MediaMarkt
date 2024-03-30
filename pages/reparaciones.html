@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reparaciones</title>
+    <title>Repara tu dispositivo con MediaMarkt</title>
     <link rel="stylesheet" href="./../css/common.css">
     <link rel="stylesheet" href="./../css/reparaciones.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="shortcut icon" href="./../assets/images/principal/faviconV2.png" type="image/x-icon">
 </head>
+
 <body>
-    
+
     <!-- Here begins Header -->
     <!-- Header is out of .container because it always spans 100% width -->
     <header class="header">
@@ -21,10 +24,10 @@
                     <li class="header_list__item"><i class="fa-solid fa-star fontAwesome-star"></i>Servicios</li>
                     <li class="header_list__item">Empresa</li>
                     <li class="header_list__item">Web Canarias</li>
-                    <a href="./pages/instalacion.html">
+                    <a href="./instalacion.html">
                         <li class="header_list__item">Instalación placas solares</li>
                     </a>
-                    <a href="./pages/reparaciones.html">
+                    <a href="./reparaciones.html">
                         <li class="header_list__item">Reparaciones</li>
                     </a>
                     <li class="header_list__item">Financiación</li>
@@ -38,7 +41,8 @@
                     <li class="header_list__item">Marketplace</li>
                 </ul>
                 <div class="header__nav">
-                    <img class="nav__img" src="./../assets/images/principal/MM_logo_white.svg" alt="">
+                    <a href="./../index.html"><img class="nav__img" src="./../assets/images/principal/MM_logo_white.svg"
+                            alt=""></a>
                     <button class="nav__category"><i class="fa-solid fa-bars fontAwesome-menu"></i> Todas las
                         categorias</button>
                     <input class="nav__search" type="search">
@@ -71,18 +75,229 @@
                 </div>
             </div>
         </div>
+
+        <div class="header__container">
+            <div class="header__container--three">
+                <i class="fa-solid fa-house"></i>
+                <i class="fa-solid fa-chevron-right"></i>
+                <p>MediaMarkt Service</p>
+                <i class="fa-solid fa-chevron-right"></i>
+                <p>Reparaciones</p>
+            </div>
+        </div>
     </header>
     <!-- Here ends Header -->
 
 
 
-    <div class="container">
-        <!-- Here begins main -->
-        <main>
+    <!-- Here begins main -->
+    <main>
+        <!--big IMG -->
+        <img src="./../assets/images/reparaciones/Imagen_Header.webp" alt="" class="cabecera__img">
+        <div class="container">
 
-        </main>
-        <!-- Here ends main -->
-    </div>
+            <!-- TITLE -->
+            <div class="instalacion__titulo">
+                <h1 class="titulo">Reparacion de dispositivos</h1>
+            </div>
+            <div class="instalacion__titulo--curvo"></div>
+
+            <!-- SECTION 1 -->
+            <section class="section_one">
+                <h2 class="section__one__title">
+                    Arreglamos lo que te importa
+                </h2>
+                <p class="section_one__text">
+                    Reparamos tus dispositivos y electrodomésticos para que los disfrutes sin preocupaciones.
+                    Encuentra en MediaMarkt las mejores soluciones a los problemas más comunes de tu smartphone,
+                    ordenador
+                    portátil, tablet, patinete y robot aspirador.
+                </p>
+            </section>
+
+            <!-- SECTION 2 -->
+            <section class="section_two">
+                <h2 class="section_two__title">¿Tu dispositivo está en garantía y lo compraste en MediaMarkt?</h2>
+                <p class="section_two__text">Sí, está en garantía</p>
+            </section>
+
+            <!-- SECTION 3 -->
+            <section class="section_three">
+                <h2 class="section_three_title">¿Qué necesitas reparar? Reparamos dentro y fuera de garantía, no importa
+                    donde lo hayas comprado</h2>
+
+                <div class="section_three__cards">
+                    <div class="section_three__card">
+                        <div>
+                            <img src="./../assets/images/reparaciones/ReparacionOrdenador800x534.webp" alt=""
+                                class="card__img">
+                        </div>
+                        <p>Reparacion de ordenadores</p>
+                    </div>
+                    <div class="section_three__card">
+                        <div>
+                            <img src="./../assets/images/reparaciones/reparacion-patinete-electrico.webp" alt=""
+                                class="card__img">
+                        </div>
+                        <p>Reparacion de patinetes</p>
+                    </div>
+                    <div class="section_three__card">
+                        <div>
+                            <img src="./../assets/images/reparaciones/reparacion-tablets.webp" alt="" class="card__img">
+                        </div>
+                        <p>Reparacion de tablets</p>
+                    </div>
+                </div>
+
+                <div class="section_three__btns">
+                    <div class="section_three__btns--first">
+                        <div> </div>
+                        <div> </div>
+                    </div>
+                    <div class="section_three__btns--second">
+                        <div><i class="fa-solid fa-chevron-left"></i></div>
+                        <div><i class="fa-solid fa-chevron-right"></i></div>
+                    </div>
+                </div>
+                <p class="section_three__garantia">*El precio de la reparación podría variar en función de la marca de
+                    la pieza, tipo de daño, etc.</p>
+            </section>
+
+            <!-- SECTION 4 -->
+            <section class="section_four">
+                <h2 class="section_four__title">¿No encuentras las reparaciones que estás buscando?</h2>
+                <p>Envíanos un correo a
+                    <a href="mailto:hub.soporte@mediamarkt.es">hub.soporte@mediamarkt.es</a>
+                </p>
+            </section>
+
+            <!-- SECTION 5 -->
+            <section class="section_five">
+                <h2 class="section_five__title">¿Quieres saber el estado de tu reparación?</h2>
+                <p>Completa
+                    <a href="">este formulario</a>
+                    para saber cuándo tendrás tu dispositivo reparado.
+                </p>
+                <form action="" method="post" class="form">
+                    <h2 class="form__title">Formulario de reparaciones e incidencias</h2>
+                    <h3 class="form__subtitle--one">Datos personales</h3>
+                    <fieldset class="form__container">
+                        <div class="form__card">
+                            <label for="name">Nombre</label>
+                            <input type="text" name="name" id="name" placeholder="Nombre...">
+                        </div>
+                        <div class="form__card">
+                            <label for="surname_1">Primer apellido</label>
+                            <input type="text" name="surname_1" id="surname_1" placeholder="Apellido 1...">
+                        </div>
+                        <div class="form__card">
+                            <label for="surname_2">Segundo apellido</label>
+                            <input type="text" name="surname_2" id="surname_2" placeholder="Apellido 2...">
+                        </div>
+                        <div class="form__card">
+                            <label for="born">Fecha nacimiento</label>
+                            <input type="date" name="born" id="born" placeholder="dd/mm/aa">
+                        </div>
+                        <div class="form__card">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" placeholder="example@gmail.com">
+                        </div>
+                        <div class="form__card">
+                            <label for="email_conf">Confirma tu email</label>
+                            <input type="email" name="email_conf" id="email_conf" placeholder="example@gamil.com">
+                        </div>
+                        <div class="form__card">
+                            <label for="telefono">Telefono</label>
+                            <input type="text" name="telefono" id="telefono" placeholder="666-666-666">
+                        </div>
+                        <div class="form__card">
+                            <label for="telefono_conf">Confirma tu telefono</label>
+                            <input type="text" name="telefono_conf" id="telefono_conf" placeholder="666-666-666">
+                        </div>
+                        <div class="form__card">
+                            <label for="country">País</label>
+                            <select name="country" id="country">
+                                <option value="" disabled selected>Selecciona un pais</option>
+                                <option value="">España</option>
+                                <option value="">Francia</option>
+                                <option value="">Andorra</option>
+                                <option value="">Portugal</option>
+                            </select>
+                        </div>
+                        <div class="form__card">
+                            <label for="provincia">Provincia</label>
+                            <select name="provincia" id="provincia">
+                                <option value="" disabled selected>Selecciona una provincia</option>
+                                <option value="">Toledo</option>
+                                <option value="">Albacete</option>
+                                <option value="">Ciudad Real</option>
+                                <option value="">Cuenca</option>
+                                <option value="">Guadalajara</option>
+                            </select>
+                        </div>
+                        <div class="div--direccion">
+                            <div class="direccion__card">
+                                <label for="adress">Direccion</label>
+                                <input type="text" name="adress" id="adress" placeholder="C/Gran via...">
+                            </div>
+                            <div class="direccion__card">
+                                <label for="adress_number">Numero</label>
+                                <input type="number" name="adress_number" id="adress_number">
+                            </div>
+                            <div class="direccion__card">
+                                <label for="adress__door">Puerta</label>
+                                <input type="text" name="adress_door" id="adress_door">
+                            </div>
+                            <div class="direccion__card">
+                                <label for="adress_floor">Planta</label>
+                                <input type="number" name="adress_floor" id="adress_floor">
+                            </div>
+                            <div class="direccion__card">
+                                <label for="adress_letter">Letra</label>
+                                <input type="text" name="adress_letter" id="adress_letter">
+                            </div>
+                        </div>
+                    </fieldset>
+                    <h3 class="form__subtitle--one">Datos del producto</h3>
+                    <fieldset class="form__container form__container--two">
+                        <label for="producto">Selecciona el producto averiado</label>
+                        <div class="form__producto">
+                            <input type="radio" name="movil" id="producto">Smartphone
+                            <input type="radio" name="movil" id="producto">Tablet
+                            <input type="radio" name="movil" id="producto">Ordenador
+                            <input type="radio" name="movil" id="producto">Smartwatch
+                            <input type="radio" name="movil" id="producto">Televisión
+                            <input type="radio" name="movil" id="producto">Videoconsola
+                            <input type="radio" name="movil" id="producto">Electrodomesticos
+                        </div>
+                        <label for="daño">Selecciona las averias</label>
+                        <div class="form__daño">
+                            <input type="checkbox" name="movil" id="producto">Rotura
+                            <input type="checkbox" name="movil" id="producto">Golpe
+                            <input type="checkbox" name="movil" id="producto">Caida
+                            <input type="checkbox" name="movil" id="producto">Humedad
+                            <input type="checkbox" name="movil" id="producto">Cortocircuito
+                            <input type="checkbox" name="movil" id="producto">Robo
+                            <input type="checkbox" name="movil" id="producto">Perdida
+                        </div>
+                        <label for="daño">Indicanos lo sucedido</label>
+                        <div class="form__comentarios">
+                            <input type="text">
+                        </div>
+                        <div class="form__observaciones">
+
+                        </div>
+                    </fieldset>
+                    <div class="form__btns">
+                        <button type="submit" class="form__btn form__btn--one">Enviar</button>
+                        <button type="reset" class="form__btn form__btn--two">Borrar</button>
+                    </div>
+                </form>
+
+            </section>
+        </div>
+    </main>
+    <!-- Here ends main -->
 
 
 
@@ -91,7 +306,7 @@
         <div class="footer__container footer__container--one">
             <section class="footer__section footer__section--one">
                 <img class="footer__img--top" src="./../assets/images/footer/sello-confianza-100.webp" alt="">
-                <img class="footer__img--top" src="./../assets/images/footer/top-2.png" alt="">
+                <img class="footer__img--top--exception" src="./../assets/images/footer/top-2.png" alt="">
                 <img class="footer__img--top" src="./../assets/images/footer/top-3.webp" alt="">
                 <img class="footer__img--top" src="./../assets/images/footer/top-4.webp" alt="">
                 <img class="footer__img--top" src="./../assets/images/footer/top-5.png" alt="">
@@ -183,14 +398,16 @@
                 <ul class="footer__list footer__list--prelast">
                     <li class="footer_list__item  footer_list__item--first">Métodos de pago</li>
                     <li class="footer_list__item footer_list__item--imgs">
-                        <img class="footer__img footer__img--visa" src="./../assets/images/footer/logo-visa-bw.svg" alt="">
+                        <img class="footer__img footer__img--visa" src="./../assets/images/footer/logo-visa-bw.svg"
+                            alt="">
                         <img class="footer__img footer__img--mastercard"
                             src="./../assets/images/footer/logo-mastercard-bw.svg" alt="">
                         <img class="footer__img footer__img--paypal" src="./../assets/images/footer/logo-paypal-bw.svg"
                             alt="">
                         <img class="footer__img footer__img--bizum" src="./../assets/images/footer/logo-bizum-bw.svg"
                             alt="">
-                        <img class="footer__img footer__img--amex" src="./../assets/images/footer/logo-amex-bw.svg" alt="">
+                        <img class="footer__img footer__img--amex" src="./../assets/images/footer/logo-amex-bw.svg"
+                            alt="">
                         <img class="footer__img footer__img--clubcard"
                             src="...//assets/images/footer/logo-club-card-es-bw.svg" alt="">
                         <img class="footer__img footer__img--giftcard"
@@ -257,4 +474,5 @@
     </footer>
     <!-- Here ends Footer -->
 </body>
+
 </html>
