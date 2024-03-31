@@ -189,8 +189,9 @@
 /* FORM CONFIG */
 .form{
     width: 55%;
+    margin: 0 auto;
     margin-top: 50px;
-    border: 2px solid var(--principal-red);
+    /* border: 2px solid var(--principal-red); */
     padding: 15px;
     border-radius: 10px;
 }
@@ -335,12 +336,46 @@ select{
     border: 1px solid var(--principal-red);
     color: var(--principal-red);
 }
-.form__btn--one:hover{
-    background-color: white;
-    border: 1px solid var(--principal-red);
-    color: var(--principal-red);
-}
 .form__btn--two:hover{
     background-color: var(--principal-red);
     color: white;
+}
+
+
+/* TABLE CONFIG */
+.table__title{
+    font-family: allotrope;
+    font-size: 25px;
+    margin-top: 45px;
+    color: var(--principal-red);
+    text-align: center;
+}
+.table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    border: 2px solid var(--principal-red);
+}
+
+.row--one{
+    font-weight: bold;
+    background-color: var(--red-pink-oscuro);
+    font-size: 13px;
+}
+.row--two{
+    font-weight: bold;
+    font-size: 13px;
+    background-color: var(--red-pink-claro);
+}
+.celda--col-1{
+    padding: 20px 0;
+    font-size: 13px;
+    background-color: var(--red-pink-claro);
+}
+.celda{
+    border: 1px solid black;
+    padding: 10px 5px;
+}
+.celda:hover{
+    background-color: var(--red-pink-oscuro);
 }
