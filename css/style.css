@@ -243,10 +243,6 @@
     font-weight: bold;
 }
 
-.fa-star{
-    font-size: 12px;
-    color: var(--principal-red);
-}
 .fa-envelope-open-text{
     font-size: 40px;
 }
